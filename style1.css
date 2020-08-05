@@ -1,0 +1,131 @@
+body {
+    width: 100vw;
+    background-color: #1da1f2;
+    font-family: Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+/*-------------------------------
+        DISPLAY FLEX
+-------------------------------*/
+.seccion-tarjeta, .encabezado, .div-footer {
+    display: flex;
+}
+
+/*-------------------------------
+        TARJETA
+-------------------------------*/
+.tarjeta {
+    width: 640px;
+    background-color: #fafafa;
+    border: 1px solid #42424225;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.seccion-tarjeta {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/*-------------------------------
+        ENCABEZADO
+-------------------------------*/
+.encabezado {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.img-user {
+    width: 11%;
+    padding: 5px;
+    margin: 5px;
+}
+
+.user {
+    font-weight: bold;
+}
+
+hr {
+    border-color: ;
+    border: 1px solid #42424225;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.user-name {
+    font-size: 18px;
+}
+
+.user-nickname {
+    font-size: 16px;
+}
+
+/*-------------------------------
+        MENSAJE
+-------------------------------*/
+.p-user-msg {
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+    
+}
+
+.p-fecha {
+    font-size: 14px;
+    margin: 10px 0 20px 0;
+}
+
+/*-------------------------------
+        FOOTER
+-------------------------------*/
+.div-footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.div-footer-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.div-footer-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.p-footer-left, .p-footer-right {
+    font-size: 16px;
+    margin: 10px 0 10px 0;
+}
+
+.p-footer-left {
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.p-footer-right {
+    padding-left: 10px;
+}
+
+.text-bold {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/*-------------------------------
+            @Luzyla
+-------------------------------*/
