@@ -1,0 +1,134 @@
+body {
+    background-color: lightgray;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-dados {
+    height: 100vh;
+}
+
+/*----------------------------
+        DISPLAY FLEX
+----------------------------*/
+.contenedor-dados, .div-dado, .dos, .tres, .cuatro, .cinco, .seis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*----------------------------
+        DADOS
+----------------------------*/
+.div-dado {
+    width: 100px;
+    height: 100px;
+    background-color: #FFFFFF;
+    padding: 15px;
+    border: 1px solid #42424260;
+    border-radius: 10px;
+    margin: 0 10px 0 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.div-punto {
+    width: 15px;
+    height: 15px;
+    border-radius: 30px;
+    background-color: black;
+    margin: 0 5px 0 5px;
+}
+
+
+/*----------------------------
+        DOS
+----------------------------*/
+.dos {
+    justify-content: space-between;
+}
+
+.dos-1 {
+    align-self: flex-end;
+}
+
+.dos-2 {
+    align-self: flex-start;
+}
+
+/*----------------------------
+        TRES
+----------------------------*/
+.tres {
+    justify-content: space-between;
+}
+
+.tres-1 {
+    align-self: flex-start;
+}
+
+.tres-2 {
+    align-self: center;
+}
+
+.tres-3 {
+    align-self: flex-end;
+}
+
+/*----------------------------
+        CUATRO
+----------------------------*/
+.cuatro {
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cuatro-1 {
+    align-self: flex-start;
+}
+
+.cuatro-2 {
+    align-self: flex-end;
+}
+
+/*----------------------------
+        CINCO (maldito bastardo que no me deja alinear el centro... no lo pude alinear aún pero no me va a ganar!!!)
+----------------------------*/
+.cinco {
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cinco-1 {
+    align-self: flex-start;
+}
+
+.cinco-2 {
+    align-self: center;
+}
+
+.cinco-3 {
+    align-self: flex-end;
+    justify-content: flex-end;
+}
+
+/*----------------------------
+            SEIS
+----------------------------*/
+.seis {
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*----------------------------
+            @Luzyla
+----------------------------*/
